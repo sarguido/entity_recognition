@@ -14,7 +14,9 @@ to pull down the image. It'll take a bit of time, but once that finishes, type t
 
 `docker run -p 8000:8000 sarahguido/prediction_endpoint`
 
-This will launch the API. For instructions on using the API, see the web app documentation for more details.
+This will launch the API. To hit the endpoint, open another terminal tab and type in `curl -i -X POST -d '{"sentence":"England Reuters"}'  http://localhost:8000/api/predict -H 'Content-Type: application/json'`.
+
+For more details on using the API, as well as full project documentation, please see the following section for launching the web app.
 
 ### Web App
 
