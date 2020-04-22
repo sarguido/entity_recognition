@@ -1,0 +1,6 @@
+pandas
+torch
+numpy
+flask
+Flask-Markdown
+seqeval
